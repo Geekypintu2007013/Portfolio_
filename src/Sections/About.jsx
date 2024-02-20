@@ -1,30 +1,30 @@
 import Card from "../Components/Card";
-import { DiHtml5, DiCss3, DiJsBadge, DiReact } from "react-icons/di";
-import { GiCpu } from "react-icons/Gi";
-import { GiRadioTower } from "react-icons/Gi";
-import { GiEagleHead } from "react-icons/Gi";
-import { LuBinary } from "react-icons/Lu";
-import { GiDeliveryDrone } from "react-icons/Gi";
-import { SiElectron } from "react-icons/si";
-import { SiArduino } from "react-icons/si";
-import { BsAndroid2 } from "react-icons/bs";
-import { FaRobot } from "react-icons/fa";
-import { SiMaterialdesign } from "react-icons/si";
-import { BiSolidMicrochip } from "react-icons/Bi";
-import { BiLogoPython } from "react-icons/Bi";
-import {
-  SiTypescript,
-  SiTailwindcss,
-  SiExpress,
-  SiMongodb,
-  SiFirebase,
-  SiGraphql,
-  SiKotlin,
-  SiVercel,
-} from "react-icons/si";
-import { BsGit } from "react-icons/bs";
-import { FaNodeJs, FaJava } from "react-icons/fa";
-import { VscGithub } from "react-icons/vsc";
+// import { DiHtml5, DiCss3, DiJsBadge, DiReact } from "react-icons/di";
+// import { GiCpu } from "react-icons/Gi";
+// import { GiRadioTower } from "react-icons/Gi";
+// import { GiEagleHead } from "react-icons/Gi";
+// import { LuBinary } from "react-icons/Lu";
+// import { GiDeliveryDrone } from "react-icons/Gi";
+// import { SiElectron } from "react-icons/si";
+// import { SiArduino } from "react-icons/si";
+// import { BsAndroid2 } from "react-icons/bs";
+// import { FaRobot } from "react-icons/fa";
+// import { SiMaterialdesign } from "react-icons/si";
+// import { BiSolidMicrochip } from "react-icons/Bi";
+// import { BiLogoPython } from "react-icons/Bi";
+// import {
+//   SiTypescript,
+//   SiTailwindcss,
+//   SiExpress,
+//   SiMongodb,
+//   SiFirebase,
+//   SiGraphql,
+//   SiKotlin,
+//   SiVercel,
+// } from "react-icons/si";
+// import { BsGit } from "react-icons/bs";
+// import { FaNodeJs, FaJava } from "react-icons/fa";
+// import { VscGithub } from "react-icons/vsc";
 
 const About = function () {
   return (
@@ -63,37 +63,37 @@ const About = function () {
 				</a> */}
           <ul role="list" className=" flex flex-col space-y-4 my-3 ">
             <li className="flex space-x-2 ">
-              <BiSolidMicrochip className="text-2xl dark:text-gray-300 text-gray-700"></BiSolidMicrochip>
+              {/* <BiSolidMicrochip className="text-2xl dark:text-gray-300 text-gray-700"></BiSolidMicrochip> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
                 Microcontroller
               </span>
             </li>
             <li className="flex space-x-3 items-center text-left">
-              <GiCpu className="text-2xl   dark:text-gray-300 text-gray-700"></GiCpu>
+              {/* <GiCpu className="text-2xl   dark:text-gray-300 text-gray-700"></GiCpu> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
                 Embedded System
               </span>
             </li>
             <li className="flex space-x-3 items-center">
-              <GiRadioTower className="text-2xl   dark:text-gray-300 text-gray-700"></GiRadioTower>
+              {/* <GiRadioTower className="text-2xl   dark:text-gray-300 text-gray-700"></GiRadioTower> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
                 Internet of Things
               </span>
             </li>
             <li className="flex space-x-3 items-center">
-              <GiDeliveryDrone className="text-2xl   dark:text-gray-300 text-gray-700"></GiDeliveryDrone>
+              {/* <GiDeliveryDrone className="text-2xl   dark:text-gray-300 text-gray-700"></GiDeliveryDrone> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
                 Drones{" "}
               </span>
             </li>
             <li className="flex space-x-3 items-center">
-              <FaRobot className="text-2xl  dark:text-gray-300 text-gray-700"></FaRobot>
+              {/* <FaRobot className="text-2xl  dark:text-gray-300 text-gray-700"></FaRobot> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
                 Robotics
               </span>
             </li>
             <li className="flex space-x-3 items-center">
-              <SiElectron className="text-2xl  dark:text-gray-300 text-gray-700"></SiElectron>
+              {/* <SiElectron className="text-2xl  dark:text-gray-300 text-gray-700"></SiElectron> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
                 Electronics Hardware Design
               </span>
@@ -104,31 +104,31 @@ const About = function () {
         <Card heading="Tools">
           <ul role="list" className="space-y-4 my-3">
             <li className="flex space-x-2 items-center">
-              <BsAndroid2 className="text-2xl dark:text-gray-300 text-gray-700"></BsAndroid2>
+              {/* <BsAndroid2 className="text-2xl dark:text-gray-300 text-gray-700"></BsAndroid2> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ">
                 Android Studio
               </span>
             </li>
             <li className="flex space-x-3 items-center">
-              <GiEagleHead className="text-2xl   dark:text-gray-300 text-gray-700"></GiEagleHead>
+              {/* <GiEagleHead className="text-2xl   dark:text-gray-300 text-gray-700"></GiEagleHead> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ">
                 Eagle
               </span>
             </li>
             <li className="flex space-x-3 items-center">
-              <LuBinary className="text-2xl   dark:text-gray-300 text-gray-700"></LuBinary>
+              {/* <LuBinary className="text-2xl   dark:text-gray-300 text-gray-700"></LuBinary> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ">
                 Xilinix
               </span>
             </li>
             <li className="flex space-x-3 items-center">
-              <SiArduino className="text-2xl   dark:text-gray-300 text-gray-700"></SiArduino>
+              {/* <SiArduino className="text-2xl   dark:text-gray-300 text-gray-700"></SiArduino> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
                 Arduino IDE
               </span>
             </li>
             <li className="flex space-x-3 items-center">
-              <SiGraphql className="text-2xl  dark:text-gray-300 text-gray-700"></SiGraphql>
+              {/* <SiGraphql className="text-2xl  dark:text-gray-300 text-gray-700"></SiGraphql> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
                 EDA Playground
               </span>
@@ -138,13 +138,13 @@ const About = function () {
         <Card heading="Programming Languages">
           <ul role="list" className="space-y-4 my-3">
             <li className="flex space-x-2 items-center">
-              <FaJava className="text-2xl dark:text-gray-300 text-gray-700"></FaJava>
+              {/* <FaJava className="text-2xl dark:text-gray-300 text-gray-700"></FaJava> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ">
                 Java
               </span>
             </li>
             <li className="flex space-x-3 items-center">
-              <BiLogoPython className="text-2xl   dark:text-gray-300 text-gray-700"></BiLogoPython>
+              {/* <BiLogoPython className="text-2xl   dark:text-gray-300 text-gray-700"></BiLogoPython> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ">
                 Python
               </span>
@@ -154,19 +154,19 @@ const About = function () {
         <Card heading="Hands on Skills">
           <ul role="list" className="space-y-4 my-3 ">
             <li className="flex space-x-2 items-center">
-              <BsGit className="text-2xl dark:text-gray-300 text-gray-700"></BsGit>
+              {/* <BsGit className="text-2xl dark:text-gray-300 text-gray-700"></BsGit> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ">
                 PCB desin
               </span>
             </li>
             <li className="flex space-x-3 items-center">
-              <SiMaterialdesign className="text-2xl   dark:text-gray-300 text-gray-700"></SiMaterialdesign>
+              {/* <SiMaterialdesign className="text-2xl   dark:text-gray-300 text-gray-700"></SiMaterialdesign> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ">
                 3D Design
               </span>
             </li>
             <li className="flex space-x-3 items-center">
-              <SiVercel className="text-2xl   dark:text-gray-300 text-gray-700"></SiVercel>
+              {/* <SiVercel className="text-2xl   dark:text-gray-300 text-gray-700"></SiVercel> */}
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ">
                 Simulation
               </span>
