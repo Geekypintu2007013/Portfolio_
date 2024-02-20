@@ -1,30 +1,22 @@
 import Card from "../Components/Card";
-import { DiHtml5, DiCss3, DiJsBadge, DiReact } from "react-icons/di";
-import { GiCpu } from "react-icons/Gi";
-import { GiRadioTower } from "react-icons/Gi";
-import { GiEagleHead } from "react-icons/Gi";
-import { LuBinary } from "react-icons/Lu";
-import { GiDeliveryDrone } from "react-icons/Gi";
-import { SiElectron } from "react-icons/si";
-import { SiArduino } from "react-icons/si";
-import { BsAndroid2 } from "react-icons/bs";
-import { FaRobot } from "react-icons/fa";
-import { SiMaterialdesign } from "react-icons/si";
-import { BiSolidMicrochip } from "react-icons/Bi";
-import { BiLogoPython } from "react-icons/Bi";
+
+import { LuBinary } from "react-icons/lu";
+import { FaRobot, FaJava } from "react-icons/fa";
+import { BsAndroid2, BsGit } from "react-icons/bs";
+import { BiSolidMicrochip, BiLogoPython } from "react-icons/bi";
 import {
-  SiTypescript,
-  SiTailwindcss,
-  SiExpress,
-  SiMongodb,
-  SiFirebase,
+  GiCpu,
+  GiRadioTower,
+  GiEagleHead,
+  GiDeliveryDrone,
+} from "react-icons/gi";
+import {
+  SiElectron,
+  SiMaterialdesign,
+  SiArduino,
   SiGraphql,
-  SiKotlin,
   SiVercel,
 } from "react-icons/si";
-import { BsGit } from "react-icons/bs";
-import { FaNodeJs, FaJava } from "react-icons/fa";
-import { VscGithub } from "react-icons/vsc";
 
 const About = function () {
   return (
