@@ -8,7 +8,7 @@ export default defineConfig({
     outDir: "build",
     rollupOptions:{
       external:[
-        "react-icons"
+        "react-icons/Gi"
       ]
     }
   }
